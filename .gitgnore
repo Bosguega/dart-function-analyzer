@@ -1,0 +1,68 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+generated_plugin_registrant.dart
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Executáveis e builds nativos (desktop)
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+*.exe
+*.dll
+*.app
+*.dmg
+*.deb
+*.rpm
+*.msi
+
+# VS Code
+.vscode/
+.history/
+
+# Arquivos do Visual Studio (caso esteja usando VS2022 para Flutter desktop)
+*.sln
+*.vcxproj*
+*.user
+*.suo
+*.ncb
+*.pdb
+*.opendb
+*.VC.db
+
+# Pubspec.lock
+# (MANTER se o projeto for app; IGNORAR apenas se for package reutilizável)
+# pubspec.lock
+
+# Markdown - **não ignorar**
+# (os arquivos .md são importantes para sua documentação)
+# *.md  <-- Comentado, pois você decidiu manter os .md versionados
+
+# Outros
+*.log
+*.tgz
+*.tar.gz
