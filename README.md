@@ -139,6 +139,12 @@ Agrupado por Função
 dart-function-analyzer/
 ├── bin/
 │   └── main.dart              # Ponto de entrada CLI
+├── gui_flet/
+│   └── main.py                 # Só inicializa o app e chama a tela principal
+│   └── ui.py                   # Componentes e layout da interface
+│   └── actions.py              # Funções que lidam com eventos (botões, cliques, etc.)
+│   └── async_tasks.py          # Funções assíncronas de execução de análise
+│   └── utils.py                # Funções auxiliares (formatação, logs, etc.)
 ├── lib/
 │   ├── dart_function_analyzer.dart
 │   └── src/
