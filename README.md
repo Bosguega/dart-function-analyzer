@@ -139,6 +139,12 @@ Agrupado por Função
 dart-function-analyzer/
 ├── bin/
 │   └── main.dart              # Ponto de entrada CLI
+├── gui_flet/
+│   └── main.py               # Ponto de entrada com a UI
+│   └── ui_components.py      # Partes visuais reutilizáveis
+│   └── utils.py              # Funções utilitárias
+│   └── analysis_service.py   # Lógica da análise
+│   └── theme.py              # Configurações de cores e estilos
 ├── lib/
 │   ├── dart_function_analyzer.dart
 │   └── src/
